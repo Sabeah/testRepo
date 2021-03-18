@@ -1,5 +1,3 @@
-# junior_dev_assessment
-
 HOW TO RUN:
 
 BACKEND:
@@ -21,4 +19,4 @@ NOTE: **DO NOT CHANGE THE FUNCTION NAMES AS WE ARE GOING TO RUN AUTOMATED TESTS 
 
 FRONTEND:
 
-- Read the description given in the word file and add your frontend code in `UI` folder
+- Read the description given in readme.txt inside UI folder and add your react app in that folder too.
