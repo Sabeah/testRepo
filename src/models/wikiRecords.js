@@ -1,0 +1,1 @@
+/*Define a wiki schema here*/
