@@ -1,7 +1,26 @@
 import SET_DATA from "../actionType";
 
 const initState = {
-    test: {},
+    searches: [
+        {
+            title: "Pakistan",
+            description: "",
+            phrase: "pakistan",
+            id: 0,
+        },
+        {
+            title: "Pakistan",
+            description: "",
+            phrase: "pakistan1",
+            id: 1,
+        },
+        {
+            title: "Pakistan",
+            description: "",
+            phrase: "pakistan2",
+            id: 2,
+        },
+    ],
 };
 
 const dataReducer = (state = initState, action) => {
@@ -9,7 +28,7 @@ const dataReducer = (state = initState, action) => {
         case SET_DATA:
             return {
                 ...state,
-                test: action.payload,
+                searches: action.payload,
             };
 
         default:

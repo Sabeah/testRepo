@@ -36,12 +36,10 @@ export const putDataWithAuth = async (url, body) => {
     }
 };
 
-export const getDataWithAuth = async (url, params = null) => {
+export const getDataWithAuth = async (url) => {
     setApiHeader();
     try {
-        const response = await axios.get(url, {
-            params: params,
-        });
+        const response = await axios.get(url);
         return {
             data: response,
             isError: false,

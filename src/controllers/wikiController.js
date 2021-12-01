@@ -2,7 +2,7 @@
  * get (all and by id), and update, and delete
  * wikipedia posts you will get calling wikipedia api
  * */
-import wikiModel from "../models/wikiRecords";
+import wikiModel from "../models/wikiRecords.js";
 
 export default {
     async insertWikiRecord(payload) {
@@ -49,3 +49,4 @@ export default {
         }
     },
 };
+

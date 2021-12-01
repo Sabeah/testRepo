@@ -2,10 +2,9 @@ import { combineReducers, createStore } from "redux";
 
 import dataReducer from "./reducers";
 
-const store = createStore(
+export const store = createStore(
     combineReducers({
         data: dataReducer,
     })
 );
-
-export default store;
+export type RootState = ReturnType<typeof store>;
